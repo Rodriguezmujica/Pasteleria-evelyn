@@ -21,37 +21,24 @@
   margin-left: 0px;
   color: rgb(246, 246, 246);
 }
-nav {
-  display: flex;
-  justify-content: center; /* centra los elementos en el eje horizontal */
-  background-color: #E56D7E; /* color de fondo de la barra de navegación */
-  align-items: center;
-  
+
+.navbar>.container-fluid {
+  background-color: #E56D7E;
+  margin: 0%;
 }
 
-
-
-nav ul {
-  list-style: none; /* quita los puntos de la lista */
-  display: flex; /* establece los elementos de la lista como elementos flexibles */
-  margin: 0;
-  padding: 0;
+.navbar {
+  padding: 0%;
 }
-
-nav li {
-  margin: 0 10px; /* espacio entre los elementos de la lista */
-}
-
-nav a {
+.nav-link {
   font-family: "effloresce";
-  display: block; /* convierte el enlace en un elemento de bloque para ocupar todo el ancho */
-  padding: 10px;
-  text-decoration: none; /* quita la subraya del enlace */
-  color: #5D3A13;
-}
-
-nav a:hover {
-  background-color: #ddd; /* color de fondo cuando se coloca el ratón encima del enlace */
+  }
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 footer {
