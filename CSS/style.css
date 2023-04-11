@@ -27,6 +27,7 @@
   margin: 0%;
 }
 
+
 .navbar {
   padding: 0%;
 }
@@ -304,7 +305,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-family: "bangers";  
-  font-size: 70px; /* establece el tamaño de fuente del título */
+  font-size: 65px; /* establece el tamaño de fuente del título */
   margin-bottom: 10px; /* establece un margen inferior para el título */
 }
 
@@ -524,33 +525,13 @@ margin-top: 100px;
 
 }
 
-/* .nosotras2:hover {
-  transition: transform 0.5s;
-  transform: scale(1.1);
-  width: calc(100% + 50px);
-  height: calc(100% + 50px);
+.nosotras2:hover,.nosotras3:hover,.nosotras4:hover,.nosotras5:hover {
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.nosotras2,.nosotras3:hover,.nosotras4:hover,.nosotras5:hover {
+  overflow:hidden;
 }
 
-.nosotras3:hover {
-  transition: transform 0.5s;
-  transform: scale(1.1);
-  width: calc(100% + 50px);
-  height: calc(100% + 50px);
-}
-
-.nosotras4:hover {
-  transition: transform 0.5s;
-  transform: scale(1.1);
-  width: calc(100% + 50px);
-  height: calc(100% + 50px);
-}
-
-.nosotras5:hover {
-  transition: transform 0.5s;
-  transform: scale(1.1);
-  width: calc(100% + 50px);
-  height: calc(100% + 50px);
-} */
 
 .postresa {
   display: flex;
@@ -558,15 +539,17 @@ margin-top: 100px;
 }
   
   /* Estilos para pantallas medianas */
-  @media (max-width: 991px) {.section1 img, .section3 img {
+  @media (max-width: 991px) {
+    .section1 img, .section3 img 
+    {
     position: relative;
     top: 27px;
-    width: 74vh;
+    width: 40vh;
     left: 35px;
   }
 
   .section2 img {
-    width: 54vh;
+    width: 34vh;
     position: relative;
     top: 2px;
     left: 64px;
@@ -718,15 +701,15 @@ box-shadow: 5px 8px 12px black;
     .section1 img, .section3 img {
       position: relative;
       top: 25px;
-      width: 34vh;
+      width: 28vh;
       left: 40px;
     }
 
     .section2 img {
-      width: 31vh;
+      width: 28vh;
       position: relative;
       top: 8px;
-      left: 52px;
+      left: 36px;
   }
   .conoceme {
     display: grid;
