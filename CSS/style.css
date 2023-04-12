@@ -596,12 +596,12 @@ p {
   .section3 img {
     position: relative;
     top: 27px;
-    width: 40vh;
+    width: 75vh;
     left: 35px;
   }
 
   .section2 img {
-    width: 34vh;
+    width: 59vh;
     position: relative;
     top: 2px;
     left: 64px;
@@ -790,12 +790,12 @@ p {
   .section3 img {
     position: relative;
     top: 25px;
-    width: 28vh;
+    width: 60vh;
     left: 40px;
   }
 
   .section2 img {
-    width: 28vh;
+    width: 53vh;
     position: relative;
     top: 8px;
     left: 36px;
