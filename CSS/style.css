@@ -596,15 +596,15 @@ p {
   .section3 img {
     position: relative;
     top: 27px;
-    width: 75vh;
+    width: 40vh;
     left: 35px;
   }
 
   .section2 img {
-    width: 59vh;
+    width: 40vh;
     position: relative;
     top: 2px;
-    left: 64px;
+    left: 40px;
   }
 
   .conoceme {
@@ -790,12 +790,12 @@ p {
   .section3 img {
     position: relative;
     top: 25px;
-    width: 60vh;
+    width: 40vh;
     left: 40px;
   }
 
   .section2 img {
-    width: 53vh;
+    width: 40vh;
     position: relative;
     top: 8px;
     left: 36px;
@@ -860,7 +860,7 @@ p {
   }
 
   .aprende img {
-    width: 50vh;
+    width: 40vh;
   }
 
   .contacto1 {
