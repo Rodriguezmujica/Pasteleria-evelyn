@@ -7,31 +7,30 @@
             justify-content: space-around;
             flex-wrap: wrap;
             list-style: none;
+            
           }
       
       }
- .fotospro {
+.fotospro {
         width: 240px;
       }
       
 .redv {
     width: 130px;
-  }
+    }
   .tortainfa { 
     img {
     width: 40vh;
   }
   }
 
-
-.productos {
+  .productos {
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-  h2 {
+    h2 {
       font-size: 28px;
       text-align: center;
     }
@@ -43,7 +42,6 @@
       border-radius: 5px;
       text-align: center;
     }
-    
     img {
       max-width: 100%;
       height: auto;
@@ -67,9 +65,26 @@
       padding: 10px;
       border-radius: 5px;
       text-decoration: none;
+       &:hover {  background-color: #0062cc;}
     }
-    &:hover {
-      background-color: #0062cc;
-    }
-    }
-    
+   
+  }
+
+  h1 {
+    text-align: center;
+    color: #5D3A13;
+  }
+  .cupcafe {
+    width: 120px;
+  }
+.tortast {
+  p {
+    margin-bottom: 70px;
+  }
+}
+
+.packcup {
+  p {
+    margin-bottom: 86px;
+  }
+}
