@@ -1,0 +1,27 @@
+.logo {
+    height: 100px;
+    width: 150px;
+    font-size: 100px;
+    line-height: 1;
+    margin-left: 0px;
+  
+  }
+
+  
+.navbar {
+    padding: 0%;
+ .container-fluid {
+        display: flex;
+        flex-direction: column;
+        background-color: #E56D7E;
+        margin: 0%;
+      }
+  }
+
+ .nav-link {
+    font-family: "effloresce";
+    &:hover {
+        background-color: white;
+    }
+  }
+  
