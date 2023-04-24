@@ -53,3 +53,18 @@
         overflow: hidden;
     }
   }
+
+
+  @media (max-width: 768px) {
+    .quienes {
+      display:none
+     }
+     .quien {
+      margin-bottom: 50px;
+    }
+
+  }
+  
+  @media (max-width: 480px) {
+  
+  }

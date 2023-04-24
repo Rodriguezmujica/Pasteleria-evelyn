@@ -37,3 +37,35 @@
       }
   
   }
+    
+    @media (max-width: 768px) {
+      .multimedia {
+        border-top: 2px solid;
+        display: flex;
+        flex-direction: column;
+      }
+      .video {
+        position: relative;
+        height: 0;
+        padding-bottom: 56.2%;
+        margin-bottom: 20px;
+      }
+  
+    }
+    
+    @media (max-width: 480px) {
+      .multimedia {
+        border-top: 2px solid;
+        display: flex;
+        flex-direction: column;
+      }
+      .video {
+        position: relative;
+        height: 0;
+        padding-bottom: 56.2%;
+        margin-bottom: 20px;
+      }
+  
+  
+  }
+  
