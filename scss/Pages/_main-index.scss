@@ -1,4 +1,4 @@
-.contenido1 {
+.contenido {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -24,7 +24,7 @@
   }
 }
 
-.section1 {
+.contenido__section {
   img {
     position: relative;
     top: 24px;
@@ -45,7 +45,7 @@
   }
 }
 
-.section2 {
+.section--tortasbodas {
   img {
     width: 35vh;
     position: relative;
@@ -66,7 +66,7 @@
   }
 }
 
-.section3 {
+.section--postres {
   img {
     position: relative;
     top: 24px;
@@ -87,7 +87,7 @@
   }
 }
 
-.conocenos {
+.contenido__section--conocenos {
   color: #5D3A13;
   text-align: center;
   font-size: xx-large;
@@ -110,7 +110,7 @@
   }
 }
 
-.aprende {
+.contenido__section--aprende {
   text-align: center;
   margin-top: 20px;
 
@@ -132,13 +132,13 @@
   }
 }
 
-.contacto1 {
+.contenido__section--contacto {
   text-align: center;
   margin-top: 20px;
 
   img {
     height: 12vw;
-    width: 387px;
+    width: 265px;
     max-width: 100%;
     border-radius: 20px;
     box-shadow: 5px 8px 12px black;
@@ -156,8 +156,8 @@
 
 @media (max-width: 768px) {
 
-  .section1 {
-    grid-area: section1;
+  .contenido__section {
+    grid-area: contenido__section;
 
     img {
       position: relative;
@@ -179,8 +179,8 @@
     }
   }
 
-  .section3 {
-    grid-area: section3;
+  .section--postres {
+    grid-area: section--postres;
 
     img {
       position: relative;
@@ -202,7 +202,7 @@
     }
   }
 
-  .contenido1 {
+  .contenido {
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -226,8 +226,8 @@
     }
   }
 
-  .section2 {
-    grid-area: section2;
+  .section--tortasbodas {
+    grid-area: section--tortasbodas;
 
     img {
       width: 40vh;
@@ -250,8 +250,8 @@
   }
 
 
-  .aprende {
-    grid-area: aprende;
+  .contenido__section--aprende {
+    grid-area: contenido__section--aprende;
     img {
       height: 30vw;
       width: 43vh;
@@ -260,7 +260,7 @@
       box-shadow: 5px 8px 12px black;
     }
   }
-  .contacto1 {
+  .contenido__section--contacto {
     text-align: center;
     margin-top: 20px;
   
@@ -285,8 +285,8 @@
 }
 
 @media (max-width: 480px) {
-  .section1 {
-    grid-area: section1;
+  .contenido__section {
+    grid-area: contenido__section;
 
     img {
       position: relative;
@@ -308,8 +308,8 @@
     }
   }
 
-  .section3 {
-    grid-area: section3;
+  .section--postres {
+    grid-area: section--postres;
 
     img {
       position: relative;
@@ -331,7 +331,7 @@
     }
   }
 
-  .contenido1 {
+  .contenido {
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -355,8 +355,8 @@
     }
   }
 
-  .section2 {
-    grid-area: section2;
+  .section--tortasbodas {
+    grid-area: section--tortasbodas;
 
     img {
       width: 40vh;
@@ -379,8 +379,8 @@
   }
 
 
-  .aprende {
-    grid-area: aprende;
+  .contenido__section--aprende {
+    grid-area: contenido__section--aprende;
     img {
       height: 30vw;
       width: 43vh;
@@ -389,13 +389,13 @@
       box-shadow: 5px 8px 12px black;
     }
   }
-  .contacto1 {
+  .contenido__section--contacto {
     text-align: center;
     margin-top: 20px;
   
     img {
       height: 40vw;
-      width: 387px;
+      width: 250px;
       max-width: 100%;
       border-radius: 20px;
       box-shadow: 5px 8px 12px black;
