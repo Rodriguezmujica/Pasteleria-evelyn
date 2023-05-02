@@ -1,3 +1,5 @@
+
+
 .productosItem {
         display: flex;
         flex-direction: column;
@@ -35,10 +37,11 @@
       text-align: center;
     }
     li {
+      background-color: white;
       width: 300px;
       margin: 20px;
       padding: 20px;
-      border: 1px solid #ccc;
+      border: 1px solid $rosaeve;
       border-radius: 5px;
       text-align: center;
     }
@@ -59,7 +62,7 @@
     a {
       display: block;
       text-align: center;
-      background-color: #E56D7E;
+      background-color: $rosaeve;
       color: #fff;
       font-size: 20px;
       padding: 10px;
@@ -72,7 +75,7 @@
 
   h1 {
     text-align: center;
-    color: #5D3A13;
+    color: $marroneve;
   }
   .cupcafe {
     width: 120px;

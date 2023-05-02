@@ -1,8 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0; }
-
-@import url("https://fonts.googleapis.com/css2?family=Alice&family=Roboto:wght@400;700&display=swap");
 
 @font-face {
   font-family: "bangers";
@@ -23,12 +22,18 @@
     display: flex;
     flex-direction: column;
     background-color: #E56D7E;
-    margin: 0%; }
+    margin: 0%;
+    padding-bottom: 20px; }
 
 .nav-link {
-  font-family: "effloresce"; }
+  font-family: "effloresce";
+  color: #5D3A13; }
   .nav-link:hover {
     background-color: white; }
+
+.nav-border {
+  border: 2px solid #5D3A13;
+  color: #5D3A13; }
 
 footer {
   background-color: #eee;
@@ -416,7 +421,8 @@ ul li img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: -10%; }
+  margin-bottom: -10%;
+  padding-top: 20px; }
   .conoceme p {
     text-align: center; }
   .conoceme img {
@@ -494,10 +500,11 @@ ul li img {
     font-size: 28px;
     text-align: center; }
   .productos li {
+    background-color: white;
     width: 300px;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #E56D7E;
     border-radius: 5px;
     text-align: center; }
   .productos img {
