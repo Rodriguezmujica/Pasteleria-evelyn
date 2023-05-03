@@ -1,3 +1,4 @@
+
 .tituloc {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
@@ -16,9 +17,10 @@
   form {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 2px solid $marroneve;
     padding: 20px;
     border-radius: 5px;
+  
   }
 
   label {
@@ -33,7 +35,7 @@ input[type="tel"],
 textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid $marroneve;
   border-radius: 4px;
   box-sizing: border-box;
   margin-bottom: 15px;
@@ -44,12 +46,12 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 textarea:focus {
   outline: none;
-  border-color: #66afe9;
+  border-color: $marroneve;
   box-shadow: 0 0 5px #66afe9;
 }
 
 button[type="submit"] {
-    background-color: #4CAF50;
+    background-color: $rosaeve;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -58,6 +60,17 @@ button[type="submit"] {
   }
 
   button[type="submit"]:hover {
-    background-color: #45a049;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    background: #2098D1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
   }
 
