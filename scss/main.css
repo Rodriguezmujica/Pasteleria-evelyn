@@ -432,7 +432,9 @@ ul li img {
     /* margin-right: 50px; */ }
 
 .quien {
-  font-size: xx-large; }
+  font-size: xx-large;
+  padding-left: 40px;
+  padding-right: 40px; }
 
 .cnosotras {
   display: flex;
@@ -446,16 +448,18 @@ ul li img {
 
 .quienes {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 13px;
   margin-bottom: 300px;
   margin-top: 100px; }
   .quienes img {
-    margin-right: 50px;
-    width: 320px;
-    height: 561px; }
+    margin-right: 115px;
+    width: 321px;
+    height: 561px;
+    margin-top: 16px;
+    margin-left: 140px; }
 
 .nosotras2:hover,
 .nosotras3:hover,
